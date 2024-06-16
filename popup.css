@@ -1,0 +1,29 @@
+body{
+    background: rgb(12, 8, 8);
+
+}
+
+.wrapper{
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    /* flex-direction: column; */
+
+}
+.wrapper h2{
+    color: yellow;
+    font-size: 13px;
+}
+.changeColorBtn{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.changeColorBtn :hover{
+    color: rgb(66, 60, 60);
+  
+}
